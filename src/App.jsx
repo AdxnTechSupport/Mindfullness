@@ -3,6 +3,8 @@ import {ScheduleXCalendar, useCalendarApp} from "@schedule-x/react";
 import {createViewWeek, createViewMonthGrid, createViewMonthAgenda} from '@schedule-x/calendar'
 import '@schedule-x/theme-default/dist/calendar.css'
 import Pomodoro from './Pomodoro/Pomodoro.jsx'
+import { createEventModalPlugin } from '@schedule-x/event-modal';
+import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop';
 
 
 function App() {
@@ -14,21 +16,22 @@ function App() {
     events: [ //from api
       {
         id:1,
-        title: 'My new event',
+        title: 'Calc Midterm',
         start: '2025-01-01 00:00',
         end: '2025-01-01 02:00',
-        description: 'My cool des'
+        description: 'Study!!!'
       }
     ],
     selectedDate: '2025-01-01',
     plugins: [ 
-      
+      createEventModalPlugin(),
+      createDragAndDropPlugin()
     ]
   })
   return(
     <>
     <Pomodoro/>
-    {/* <ScheduleXCalendar calendarApp={calendar} /> */}
+    <ScheduleXCalendar calendarApp={calendar} />
     </>
     
     

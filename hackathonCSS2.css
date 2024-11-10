@@ -3,8 +3,11 @@
 p{
     color: black;
 }
+
 body {
-background-color: white;}
+background-color: white;
+margin: auto;
+}
 
 
 h1{
@@ -13,22 +16,56 @@ h1{
     color: white;
     background-color: blueviolet;
     border: purple;
-    border-radius: 5cm;
-    
-
+    border-radius: 5cm;     
 }
+
 
 div{
     border-radius: 1%;
-    border: 2cm;
     max-width: fit-content;
     color: aqua;
     background-image: linear-gradient(to right, rgb(130, 249, 251) , rgb(99, 250, 182));
-margin: 1cm;
-padding: 30px;
+    padding: 30px;
 
 }
 
+.parallax-layer.layer1 {
+    width: 100%;
+    height: 100rem;
+  
+    background-color: red;
+  }
+  
+  .parallax-layer.layer2 {
+    top: 10rem;
+  
+    width: 100%;
+    height: 50rem;
+  
+    background-color: green;
+  }
+  .parallax-layer.layer3 {
+    top: 20rem;
+  
+    width: 100%;
+    height: 50rem;
+  
+    background-color: blue;
+  }
+  
+  div{
+    font-size: 50px;
+    text-align: center;
+  }
+
+.parallax {
+    height: 100vh;
+  
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+    perspective: 1px;
+  }
 footer{
 background-color: rgb(250, 215, 227);
 border-radius: 1%;

@@ -1,12 +1,13 @@
-
-
 p{
-    color: black;
+    color: rgb(255, 255, 255);
+    text-size-adjust: 60px;
+    font-size: 30px;
 }
 
 body {
-background-color: white;
+background-color: rgb(20, 20, 20);
 margin: auto;
+font-size: 30px;
 }
 
 
@@ -14,7 +15,7 @@ h1{
     text-align: center;
      padding: 1%;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(58, 113, 223);
     border: purple;
     border-radius: 5cm;     
 }
@@ -23,8 +24,8 @@ h1{
 div{
     border-radius: 1%;
     max-width: fit-content;
-    color: aqua;
-    background-image: linear-gradient(to right, rgb(130, 249, 251) , rgb(99, 250, 182));
+    color: rgb(20, 20, 20);
+    background-image: linear-gradient(to right, rgb(20, 20, 20) , rgb(20, 20, 20));
     padding: 30px;
 
 }
@@ -60,10 +61,7 @@ div{
   
     perspective: 1px;
   }
-footer{
-background-color: rgb(250, 215, 227);
-border-radius: 1%;
-border: 2cm;
-margin: 1cm;
-padding: 30px;}
+
+
+
 

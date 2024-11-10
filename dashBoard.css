@@ -12,6 +12,12 @@ html{
     font-size: 12px;
     font-family: 'Exo';
 }
+h3{
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: transparent;
+}
 nav {
     height: 60px;
     background-color: var(--color-1);
@@ -55,8 +61,8 @@ nav svg{
 }
 #greetings {
     text-align: left;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 4rem;
+    padding: 1rem;
     color: #ffffff;
     font-weight: bold;
     margin-top: 60px; /* This matches the navbar height */

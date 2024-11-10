@@ -1,0 +1,38 @@
+
+
+p{
+    color: black;
+}
+body {
+background-color: white;}
+
+
+h1{
+    text-align: center;
+     padding: 1%;
+    color: white;
+    background-color: blueviolet;
+    border: purple;
+    border-radius: 5cm;
+    
+
+}
+
+div{
+    border-radius: 1%;
+    border: 2cm;
+    max-width: fit-content;
+    color: aqua;
+    background-image: linear-gradient(to right, rgb(130, 249, 251) , rgb(99, 250, 182));
+margin: 1cm;
+padding: 30px;
+
+}
+
+footer{
+background-color: rgb(250, 215, 227);
+border-radius: 1%;
+border: 2cm;
+margin: 1cm;
+padding: 30px;}
+
